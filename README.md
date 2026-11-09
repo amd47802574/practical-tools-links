@@ -27,9 +27,10 @@
 
 | 工具 | 文件 | 链接 | 简介 |
 |------|------|------|------|
-| 🎬 视频下载 | [视频下载.url](./视频下载.url) | [hellotik.app/zh/douyin](https://www.hellotik.app/zh/douyin) | 抖音短视频去水印下载，粘贴链接即可解析，支持无水印原视频/封面 |
-| 🎵 音乐下载 | [音乐下载.url](./音乐下载.url) | [music.zyfx6.xyz](https://music.zyfx6.xyz/) | 在线音乐搜索与下载工具，支持试听和多种音质 |
-| 📚 背单词 | [背单词.url](./背单词.url) | [typewords.cc/words](https://typewords.cc/words) | 打字式背单词网站，边打字边记忆，适合日常碎片时间练习 |
+| 🎬 视频下载 | [视频下载.url](./工具链接/视频下载.url) | [hellotik.app/zh/douyin](https://www.hellotik.app/zh/douyin) | 抖音短视频去水印下载，粘贴链接即可解析，支持无水印原视频/封面 |
+| 🎵 音乐下载 | [音乐下载.url](./工具链接/音乐下载.url) | [music.zyfx6.xyz](https://music.zyfx6.xyz/) | 在线音乐搜索与下载工具，支持试听和多种音质 |
+| 📚 背单词 | [背单词.url](./工具链接/背单词.url) | [typewords.cc/words](https://typewords.cc/words) | 打字式背单词网站，边打字边记忆，适合日常碎片时间练习 |
+| 🔍 IP纯净度查询 | [IP纯净度查询.url](./工具链接/IP纯净度查询.url) | [ping0.cc](https://ping0.cc/) | 查询 IP 纯净度/风险值，检测代理与原生 IP 质量 |
 
 > 🔗 链接失效或站点改版？欢迎提 [Issue](../../issues) 告知，会及时更新。
 
@@ -79,9 +80,11 @@ URL=https://example.com/
 
 ```
 practical-tools-links/
-├── 视频下载.url        # 抖音视频去水印下载
-├── 音乐下载.url        # 在线音乐搜索下载
-├── 背单词.url          # 打字式背单词
+├── 工具链接/              # 所有 .url 快捷方式
+│   ├── 视频下载.url      # 抖音视频去水印下载
+│   ├── 音乐下载.url      # 在线音乐搜索下载
+│   ├── 背单词.url        # 打字式背单词
+│   └── IP纯净度查询.url  # IP 纯净度/风险值查询
 └── README.md
 ```
 
