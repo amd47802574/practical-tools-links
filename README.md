@@ -4,14 +4,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](#使用方法)
-[![Links](https://img.shields.io/badge/工具链接-3%2B-green)](#工具清单)
+[![Links](https://img.shields.io/badge/工具链接-16%2B-green)](#工具清单)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#贡献指南)
 
 ---
 
 ## 📖 项目简介
 
-日常冲浪时总会遇到一些「用完想收藏」的在线小工具：视频去水印、无损音乐下载、背单词……但浏览器书签一多就乱，换台电脑也带不走。
+日常冲浪时总会遇到一些「用完想收藏」的在线小工具：视频去水印、无损音乐下载、背单词、各大云服务官网……但浏览器书签一多就乱，换台电脑也带不走。
 
 这个仓库的思路很简单：
 
@@ -31,6 +31,23 @@
 | 🎵 音乐下载 | [音乐下载.url](./工具链接/音乐下载.url) | [music.zyfx6.xyz](https://music.zyfx6.xyz/) | 在线音乐搜索与下载工具，支持试听和多种音质 |
 | 📚 背单词 | [背单词.url](./工具链接/背单词.url) | [typewords.cc/words](https://typewords.cc/words) | 打字式背单词网站，边打字边记忆，适合日常碎片时间练习 |
 | 🔍 IP纯净度查询 | [IP纯净度查询.url](./工具链接/IP纯净度查询.url) | [ping0.cc](https://ping0.cc/) | 查询 IP 纯净度/风险值，检测代理与原生 IP 质量 |
+| 🧩 Jetbrains产品激活 | [Jetbrains产品激活.url](./工具链接/Jetbrains产品激活.url) | [ckey.run](https://ckey.run/) | JetBrains 产品激活服务入口 |
+
+### ☁️ 云服务官网
+
+| 云厂商 | 文件 | 官网 |
+|--------|------|------|
+| 腾讯云 | [腾讯云.url](./工具链接/云服务官网/腾讯云.url) | [cloud.tencent.com](https://cloud.tencent.com/) |
+| 阿里云 | [阿里云.url](./工具链接/云服务官网/阿里云.url) | [aliyun.com](https://www.aliyun.com/) |
+| 百度智能云 | [百度智能云.url](./工具链接/云服务官网/百度智能云.url) | [cloud.baidu.com](https://cloud.baidu.com/) |
+| 京东云 | [京东云.url](./工具链接/云服务官网/京东云.url) | [jdcloud.com](https://www.jdcloud.com/) |
+| 华为云 | [华为云.url](./工具链接/云服务官网/华为云.url) | [huaweicloud.com](https://www.huaweicloud.com/) |
+| 滴滴云 | [滴滴云.url](./工具链接/云服务官网/滴滴云.url) | [didiyun.com](https://www.didiyun.com/) |
+| 天翼云 | [天翼云.url](./工具链接/云服务官网/天翼云.url) | [ctyun.cn](https://www.ctyun.cn/) |
+| 亚马逊云（AWS） | [亚马逊云.url](./工具链接/云服务官网/亚马逊云.url) | [aws.amazon.com/cn](https://aws.amazon.com/cn/) |
+| 谷歌云 | [谷歌云.url](./工具链接/云服务官网/谷歌云.url) | [cloud.google.com](https://cloud.google.com/) |
+| 微软云（Azure） | [微软云.url](./工具链接/云服务官网/微软云.url) | [azure.cn](https://www.azure.cn/) |
+| IBM云 | [IBM云.url](./工具链接/云服务官网/IBM云.url) | [ibm.com/cloud-computing](https://www.ibm.com/cloud-computing/cn/zh/private-cloud.html) |
 
 > 🔗 链接失效或站点改版？欢迎提 [Issue](../../issues) 告知，会及时更新。
 
@@ -41,6 +58,7 @@
 - **零依赖**：不需要安装任何软件，Windows 系统原生支持 `.url` 文件
 - **双击即用**：资源管理器里双击，默认浏览器直接打开对应站点
 - **可搜索**：直接在文件管理器搜索栏输入工具名（如「背单词」）快速定位
+- **分类整理**：按类别建立子目录（如 `云服务官网/`），同类链接集中管理
 - **易扩展**：添加新工具 = 新建一个 `.url` 文件，格式两行搞定
 - **版本管理**：Git 管理，链接改版历史可追溯
 
@@ -81,6 +99,8 @@ URL=https://example.com/
 ```
 practical-tools-links/
 ├── 工具链接/              # 所有 .url 快捷方式
+│   ├── 云服务官网/        # 各大云厂商官网（11 个）
+│   ├── Jetbrains产品激活.url # JetBrains 产品激活服务入口
 │   ├── 视频下载.url      # 抖音视频去水印下载
 │   ├── 音乐下载.url      # 在线音乐搜索下载
 │   ├── 背单词.url        # 打字式背单词
@@ -102,7 +122,7 @@ HotKey=0
 
 ## 🛣️ 计划中
 
-- [ ] 按分类建立子目录（视频 / 音乐 / 学习 / 效率 / 设计…）
+- [x] 按分类建立子目录（已建立「云服务官网」分类）
 - [ ] 增加更多常用工具（截图、OCR、PDF 处理、格式转换等）
 - [ ] 定期巡检链接可用性
 - [ ] 提供跨平台 `.webloc`（macOS）/ `.desktop`（Linux）版本
